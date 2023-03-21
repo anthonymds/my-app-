@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+:root{
+    --font-primary: "Chakra Petch";
+    --color-primary: rgba(125, 55, 255, 1);
+    --color-secundary: rgba(255, 255, 255, 1);
+    --color-tertiary: rgba(163, 163, 163, 1);
+    --color-quaternary: rgba(190, 182, 210, 1);
+}
+
+body{
+    background: linear-gradient(95deg, #17171B 2.04%, #341842 54.31%, #072B2C 95.83%);
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    background-color: #191620;
+    padding: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h1{
+    font-size: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    padding-left: 60px;
+    color: var(--color-secundary);
+    font-family: var(--font-primary);
+}
+
+h1 span{
+  color: var(--color-primary);
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+
+.header .homeButtonText{
+    text-decoration: none;
+}
+
+.header .nav{
+    margin-left: 15%;
+}
+
+.header .nav ul li{  
+  padding: 16px;
+}
+
+.header .nav ul a:hover{
+    cursor: pointer;
+    background-color: var(--color-primary);
+}
+
+.header .nav ul a{
+  padding: 16px;
+  text-decoration: none;
+  color: var(--color-quaternary);
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.header .prime{
+  text-decoration: none;
+  margin-left: 230px;
+  display: flex;
+  width: 170px;
+  height: 55px;
+  color: var(--color-secundary);
+  background-color: var(--color-primary);
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-primary);
+  font-size: 20px;
+}
+
+
+.header .prime:hover{
+    cursor: pointer;
+}
+
+/*****************SLOGAN**************
+**************************************/
+
+.slogan{
+    margin-top: 110px;
+    color: var(--color-secundary);
+    font-family: var(--font-primary);
+}
+
+.slogan h2{
+    font-size: 40px;
+}
+
+.slogan h4{
+    color: var(--color-quaternary);
+    font-size: 25px;
+}
+
+.slogan div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-2{
+    margin-top: 70px;
+}
+
+
+.slogan-2 img{
+    padding-left: 10px;
+}
+
+/********************* products **********************
+*****************************************************/
+.products{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 70px;
+    margin-right: 130px;
+    justify-content: space-evenly;
+}
+
+.products .item{
+    width: 240px;
+    height: 437px;
+    background: #191620;
+    box-shadow: 0px 4px 20px rgb(125 55 255 / 18%);
+}
+
+.products .img-item{
+    height: 200px;
+    width: 240px;
+}
+
+.products .item .container-desc{
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    height: 82px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products .item .descrition{
+    color: var(--color-secundary);
+    display: flex;
+    font-family: var(--font-primary);
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.products .item .price{
+    font-size: 24px;
+    color: var(--color-secundary);
+    font-family: var(--font-primary);
+    margin-left: 10%;
+}
+
+.products .item .delivery{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.products .item .delivery span{
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 21px;
+}
+
+.products .item .delivery img{
+    height: 33px;
+    margin-left: 10%;
+    margin-right: 20px;
+}
