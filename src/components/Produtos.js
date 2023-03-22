@@ -6,7 +6,7 @@ const Produtos = () => {
                 <section class="products">
                 
                 <div class="item">
-                    {/* <img class="img-item" src="img/produto.jpg" alt=""> */}
+                    {/* <img class="img-item" src="img/produto.jpg" alt=""> imagens comentadas por preguica de importar todas  */}
                     <div class="container-desc">
                         <span class="descrition">A GeForce RTX 3060 permite que você jogue os jogos mais recentes usando o poder da Ampere — a arquitetura RTX de 2ª geração da NVIDIA. 
                             Obtenha um desempenho incrível com Ray Tracing Cores e Tensor Cores aprimorados, novos multiprocessadores de streaming e memória G6 de alta velocidade.</span>
@@ -55,7 +55,7 @@ const Produtos = () => {
                 </div>
 
                 <div class="item">
-                    {/* <img class="img-item" src="img/monitoraoc.jpg" alt=""> */}
+                    {/* <img class="img-item" src="img/monitoraoc.jpg" alt=""> */} 
                     <div class="container-desc">
                         <span class="descrition">Monitor Gamer AOC Hero 23.8 Full HD, Wide, 144 Hz, 1ms, FreeSync, HDMI e DisplayPort, IPS, Ajuste de Altura - 24G2/BK</span>
                     </div>
