@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import Slogan from "../components/Slogan";
 import Footer from "../components/Footer";
-import Content from "../components/Content";
+import Produtos from "../components/Produtos"
 
 
 
@@ -12,8 +12,7 @@ const Home = () => {
         <>
             <Header/>
             <Slogan/>
-
-            
+            <Produtos/>
             <Footer/>
         </>
     )
